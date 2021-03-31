@@ -1,0 +1,88 @@
+/* google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    /* this font has been imported from google fonts*/
+    font-family: 'Roboto', sans-serif;
+    line-height:1.5rem;
+    background-color: rgb(85,86,143);
+    background-image: none;
+}
+#container{
+    max-width: 700px;
+    text-align: center;
+    padding: 0.6rem;
+    margin: 4rem auto;
+    color: antiquewhite;
+}
+#title{
+    font-size: 2rem;
+    line-height: 1.2;
+    padding: 0.2rem;
+}
+#description{
+    font-style: italic;
+    font-size: 1rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.9rem;
+    letter-spacing: 1.5px;
+}
+#survey-form{
+    text-align: center;
+    color: black;
+    background-color: rgb(43,43,74);
+    color: antiquewhite;
+    /* rounding the borders of the survey form box*/
+    border-radius: 5px;
+    padding: 2rem 1.5rem;
+}
+
+.form-group{
+    text-align: left;
+    padding: 1rem;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight:bold;
+}
+#name,
+#email, #number,
+#dropdown,
+#dropdown2-feature,
+#textarea,
+#btn-submit{
+    width: 95%;
+    border-radius: 7px;
+    height: 40px;
+    padding: 0.5rem;
+    font-size: 15px;
+    background-color: rgb(255,255,255);
+    margin-top: 7px;
+}
+#name-selection{
+    margin-top: 1rem;
+}
+
+#btn-submit{
+    background-color: rgb(55,175,101);
+    color: white;
+    font-size: normal;
+    font-weight: bold;
+    padding:0.5rem;
+}
+
+#mysignature{
+    margin-top: 1rem;
+}
+
+#mysignature a:link{
+    text-decoration: underline;
+    color:beige;
+}
+#mysignature a:hover{
+    color:aqua;
+}
